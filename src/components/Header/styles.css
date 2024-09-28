@@ -1,0 +1,42 @@
+
+#cabecalho
+{
+    background-color: green;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 80px;
+
+}
+#cabecalho h1
+{
+    margin-left: 2%;
+}
+#pesquisa
+{
+    display: flex;
+    margin-top: 11%;
+    margin-left: 3%;
+    width: 220%;
+    height: 25px;
+    border-radius: 2%;
+    border-color: white;
+}
+
+.input-suffix {
+    position: relative;
+  }
+  
+  .input-suffix input {
+    padding-right: 30px; /* adjust the padding to accommodate the icon */
+  }
+  
+  .input-suffix i {
+    position: absolute;
+    right: -136%;
+    top: 43%;
+    transform: translateY(-15%);
+    font-size: 18px;
+    color: black; /* adjust the color to your liking */
+  }
