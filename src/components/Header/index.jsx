@@ -9,7 +9,7 @@ export default function Header() {
         <section id='cabecalho'>
 
         <div>
-            <h1>Agropecuaria Borba Gato &copy;</h1>
+            <h1>Agropecuária Borba Gato &copy;</h1>
         </div>
         <div className='input-suffix'>
         <i id='emoji' class="fa-solid fa-magnifying-glass"></i>
