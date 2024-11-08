@@ -5,8 +5,11 @@
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
-    width: 100%;
+    width: 110%;
+    padding: 5px;
+    margin-top: -10px;
     height: 80px;
+    margin-left: -10px;
 
 }
 #cabecalho h1
@@ -17,8 +20,8 @@
 {
     display: flex;
     margin-top: 11%;
-    margin-left: 3%;
-    width: 220%;
+    margin-left: 6%;
+    width: 420%;
     height: 25px;
     border-radius: 2%;
     border-color: white;
@@ -34,7 +37,7 @@
   
   .input-suffix i {
     position: absolute;
-    right: -136%;
+    right: -336%;
     top: 43%;
     transform: translateY(-15%);
     font-size: 18px;
