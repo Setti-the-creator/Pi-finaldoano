@@ -1,6 +1,6 @@
-
 #cabecalho
 {
+<<<<<<< HEAD
     background-color: green;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -11,13 +11,28 @@
     height: 80px;
     margin-left: -10px;
 
+=======
+  margin: 0;
+  background-color: green;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  width: 100%;
+  height: 100px;
+>>>>>>> 3bb98b48f60586c7878687e39d3e713e23c4a1f2
 }
+
 #cabecalho h1
 {
-    margin-left: 2%;
+  width: 420px;
+  height: 100px;
+  margin-left: 2%;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 #pesquisa
 {
+<<<<<<< HEAD
     display: flex;
     margin-top: 11%;
     margin-left: 6%;
@@ -25,16 +40,27 @@
     height: 25px;
     border-radius: 2%;
     border-color: white;
+=======
+  display: flex;
+  margin-top: 11%;
+  margin-left: 6%;
+  width: 220%;
+  height: 50px;
+  border-radius: 2%;
+  border-color: #014b0b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> 3bb98b48f60586c7878687e39d3e713e23c4a1f2
 }
 
 .input-suffix {
-    position: relative;
-  }
+  position: relative;
+}
   
-  .input-suffix input {
-    padding-right: 30px; /* adjust the padding to accommodate the icon */
-  }
+.input-suffix input {
+  padding-right: 30px; /* adjust the padding to accommodate the icon */
+}
   
+<<<<<<< HEAD
   .input-suffix i {
     position: absolute;
     right: -336%;
@@ -43,3 +69,13 @@
     font-size: 18px;
     color: black; /* adjust the color to your liking */
   }
+=======
+.input-suffix i {
+  position: absolute;
+  right: -136%;
+  top: 43%;
+  transform: translateY(-15%);
+  font-size: 18px;
+  color: #0b6e24; /* adjust the color to your liking */
+}
+>>>>>>> 3bb98b48f60586c7878687e39d3e713e23c4a1f2
